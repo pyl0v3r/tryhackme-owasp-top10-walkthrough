@@ -1,130 +1,52 @@
-# 🛡️ OWASP Top 10 – TryHackMe Labs Walkthrough
 
-Welcome to my **OWASP Top 10** walkthrough repository where I document hands-on learning from TryHackMe labs. This repo covers each of the OWASP Top 10 web application security risks with practical examples, solutions, and MITRE ATT&CK mappings. 🚀
+# 🔥 OWASP Top 10 Walkthroughs
 
----
+Welcome to my **OWASP Top 10** TryHackMe Labs walkthrough repository!
+This repo documents my hands-on learning experience with real-world web application vulnerabilities.
 
-## 📚 Table of Contents
-
-1. [💉 Injection](#1-injection)  
-2. [🔐 Broken Authentication](#2-broken-authentication)  
-3. [🔒 Sensitive Data Exposure](#3-sensitive-data-exposure)  
-4. [🧩 XML External Entity (XXE)](#4-xml-external-entity-xxe)  
-5. [⚙️ Security Misconfiguration](#5-security-misconfiguration)  
-6. [🚫 Broken Access Control](#6-broken-access-control)  
-7. [🌐 Cross-Site Scripting (XSS)](#7-cross-site-scripting-xss)  
-8. [📦 Insecure Deserialization](#8-insecure-deserialization)  
-9. [🧰 Components With Known Vulnerabilities](#9-components-with-known-vulnerabilities)  
-10. [📈 Insufficient Logging and Monitoring](#10-insufficient-logging-and-monitoring)  
+✅ **Step-by-step walkthroughs**
+✅ **Key commands & exploitation techniques**
+✅ **Defensive mitigation notes**
+✅ **Mapped with MITRE ATT\&CK Techniques** for Red & Blue Team relevance
 
 ---
 
-## 1. 💉 Injection
+## 📜 Table of Contents
 
-Detailed walkthrough of **OS Command Injection** vulnerability in a PHP app.  
-- 🖥️ Commands used for reconnaissance  
-- 🛡️ Mitigation strategies  
-- 🎯 MITRE ATT&CK mapping
-
----
-
-## 2. 🔐 Broken Authentication
-
-Hands-on examples exploiting broken authentication mechanisms.  
-- 🔑 Session management flaws  
-- 🕵️‍♂️ Password attacks  
-- 🔒 Best practices for secure authentication
+1. [💉 Injection](1-injection.md)
+2. [🔐 Broken Authentication](2-broken-authentication.md)
+3. [🔒 Sensitive Data Exposure](3-sensitive-data-exposure.md)
+4. [🧩 XML External Entity (XXE)](4-xml-external-entity-xxe.md)
+5. [🚫 Broken Access Control](5-broken-access-control.md)
+6. [⚙️ Security Misconfiguration](6-security-misconfiguration.md)
+7. [🌐 Cross-Site Scripting (XSS)](7-cross-site-scripting-xss.md)
+8. [📦 Insecure Deserialization](8-insecure-deserialization.md)
+9. [🧰 Components With Known Vulnerabilities](9-components-with-known-vulnerabilities.md)
+10. [📈 Insufficient Logging and Monitoring](10-insufficient-logging-and-monitoring.md)
 
 ---
 
-## 3. 🔒 Sensitive Data Exposure
+## 🧠 Learning Goals
 
-Exploring risks of unencrypted sensitive data and attacker exploits.  
-- 🔐 Encryption techniques  
-- 👀 Identifying exposed data  
-- 🛡️ Defense mechanisms
-
----
-
-## 4. 🧩 XML External Entity (XXE)
-
-Understanding XXE vulnerabilities and how to detect/prevent them.  
-- ⚠️ Malicious XML payloads  
-- 💥 Server-side impacts  
-- 🔧 Mitigation tips
+* 🕵️‍♀️ **Understand** how OWASP Top 10 vulnerabilities are exploited
+* 🛡️ **Learn** detection & mitigation strategies
+* 🎯 **Map** vulnerabilities to **MITRE ATT\&CK** techniques
+* 🧰 **Build** strong offensive & defensive security skills
 
 ---
 
-## 5. ⚙️ Security Misconfiguration
+## 🛠️ Tools & Skills
 
-Common misconfigurations discovered during labs.  
-- 🔑 Default credentials  
-- 🖥️ Improper server settings  
-- 🛠️ Configuration hardening steps
-
----
-
-## 6. 🚫 Broken Access Control
-
-Access control flaws and unauthorized resource access walkthrough.  
-- ↔️ Horizontal & vertical privilege escalation  
-- 🕵️ Exploitation techniques  
-- 🔐 Enforcing proper access control
-
----
-
-## 7. 🌐 Cross-Site Scripting (XSS)
-
-Investigating stored, reflected & DOM-based XSS attacks.  
-- 💣 Crafting payloads  
-- 🚫 Preventing XSS in web apps  
-- 🛡️ Security headers & CSP
-
----
-
-## 8. 📦 Insecure Deserialization
-
-Examples of insecure deserialization and potential impacts.  
-- 💥 Attack scenarios  
-- 💻 Code examples  
-- 🛠️ Prevention strategies
-
----
-
-## 9. 🧰 Components With Known Vulnerabilities
-
-Risks from vulnerable components and mitigation techniques.  
-- 🔍 Identifying outdated libraries  
-- 🩹 Patch management  
-- 🤖 Automated scanning tools
-
----
-
-## 10. 📈 Insufficient Logging and Monitoring
-
-Importance of logging & monitoring for attack detection and response.  
-- 📝 Effective logging practices  
-- 🛠️ Security monitoring tools  
-- 🚨 Incident response readiness
+* 🐧 **Linux CLI** tricks for OS injections
+* 🕷 **Burp Suite & browser tools** for web exploitation
+* 🧮 **MITRE ATT\&CK Navigator** for technique mapping
+* 🎓 **TryHackMe Labs** for practical exercises
 
 ---
 
 ## 👩‍💻 About Me
 
-I’m **Urvashi Godumalani**, a cybersecurity enthusiast learning through practical TryHackMe labs. This repo documents, shares, and reflects my hands-on experience.
+I’m **Urvashi Godumalani**, a former full-stack developer turned cybersecurity professional.
+I recently completed my **Master’s in Cyber Security Technology** and am focused on building offensive & defensive security skills.
 
-- 🎓 MSc Cyber Security (Northumbria University, London)  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/urvashi-godumalani-043840113/)  
-- 💻 [GitHub](https://github.com/pyl0v3r)  
-
----
-
-## 🤝 Contributions
-
-Contributions & suggestions are **welcome**! Feel free to open issues or submit pull requests to improve this repo.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
+🌐 [LinkedIn](https://www.linkedin.com/in/urvashi-godumalani-043840113/) | 💻 [GitHub](https://github.com/pyl0v3r)
